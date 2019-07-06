@@ -23,13 +23,70 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Learning App</title>
   </head>
   <body>
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
     <div id="root"></div>
+
+    <!-- <script>
+//   // Wrap every letter in a span 
+$(".ml1 .letters").each(function () {
+  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+});
+anime.timeline({ loop: true })
+  .add({
+    targets: ".ml1 .letter",
+    scale: [0.3, 1],
+    opacity: [0, 1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 100,
+    delay: function (el, i) {
+      return 70 * (i + 1);
+    }
+  }).add({
+    targets: ".ml1 .line",
+    scaleX: [0, 1],
+    opacity: [0.5, 1],
+    easing: "easeOutExpo",
+    duration: 700,
+    offset: "-=875",
+    delay: function (el, i, l) {
+      return 80 * (l - i);
+    }
+  }).add({
+    targets: ".ml1",
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 7000
+  });
+// "Everything is better with a friend" Javascript animation 
+$(".ml2").each(function () {
+  $(this).html($(this).text().replace(/([^.\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+});
+anime.timeline({ loop: true })
+  .add({
+    targets: ".ml2 .letter",
+    scale: [3, 1],
+    opacity: [0, 1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 700,
+    delay: function (el, i) {
+      return 70 * i;
+    }
+  }).add({
+    targets: ".ml2",
+    opacity: 0,
+    duration: 700,
+    easing: "easeOutExpo",
+    delay: 70000
+  });
+  </script> -->
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
