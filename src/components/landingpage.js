@@ -17,10 +17,8 @@ class Landing extends Component {
 
             <div className="banner-text">
               <h1>Learning App</h1>
-
               <hr />
               <br />
-
               <p>Learn HTML | CSS | JS | {'& More Coming Soon'} </p>
 
               <div className="social-links">
