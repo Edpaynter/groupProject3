@@ -10,17 +10,17 @@ class InfoArea extends Component {
 
     
     render() {
-        return (
+        return ( 
             <div className="banner-text">
               <h1>{quizDictionary.Html.name}</h1>
-              <hr/>
-              <br/>
-              <div>{quizDictionary.Html.quiz_questions[0].quiz}</div>
+              
+              <p>{quizDictionary.Html.quiz_questions[0].quiz}</p>
+              <h1>{quizDictionary.Html.quiz_questions[0].answer}</h1>
             </div>
             
         )
     }
 }
 
-console.log(quizDictionary)
+console.log(quizDictionary.Html.quiz_questions[1].option2)
 export default InfoArea;
