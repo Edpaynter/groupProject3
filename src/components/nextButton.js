@@ -1,15 +1,17 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 
-class nextButton extends Component {
-    render() {
-      return (
-        <button className="nextButton">
-          {this.props.value}
+
+
+class Nextbutton extends Component {
+  render() {
+    return (
+
+      <button onClick={function () { alert("click"); }} sclassName="nextButton">
+        Hello
         </button>
-      );
-    }
+    )
   }
+}
 
 
-
-  export default nextButton;
+export default Nextbutton;
