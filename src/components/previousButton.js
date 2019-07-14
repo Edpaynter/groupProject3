@@ -1,15 +1,23 @@
 import React, {Component} from 'react'
 
-class previousButton extends Component {
-    render() {
-      return (
-        <button className="previousButton">
-          {this.props.value}
-        </button>
-      );
-    }
+import { Button} from 'react-mdl';
+
+
+
+class Backbutton extends Component {
+  render() {
+    return (
+      <div>
+      
+        <Button onClick={function () { alert("click"); }}  style={{background: '#418df0'}} raised accent ripple>Back</Button>
+
+
+       
+
+      </div>
+    )
   }
+}
 
 
-
-  export default previousButton;
+export default Backbutton;
