@@ -40,8 +40,8 @@ class InfoArea extends Component {
             
             <div className="banner-text">
                 <h1>{quizDictionary.Html.name}</h1>
-                <p>{quizDictionary.Html.quiz_questions[this.state.increment].quiz}</p>
-                <h1>{quizDictionary.Html.quiz_questions[this.state.increment].answer}</h1>
+                <h1>{quizDictionary.Html.quiz_questions[this.state.increment].quiz}</h1>
+                <p>{quizDictionary.Html.quiz_questions[this.state.increment].answer}</p>
                 
                 <Grid className="demo-grid-1">
                     <Cell col={5}><Backbutton onClick={this.DecrementItem} increment={this.state.increment} ></Backbutton></Cell>
