@@ -6,7 +6,8 @@ import TestArea from './testarea';
 class Landing extends Component {
   render() {
     return (
-      <div style={{ width: '100%', margin: 'auto' }}>
+    
+      <div style={{ width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">
           <Cell col={12}>
             {/* <img
@@ -16,34 +17,11 @@ class Landing extends Component {
             /> */}
 
             <div className="banner-text">
-              <h1>Learning App</h1>
+              <h1 style={{fontSize: 60, fontFamily: 'Tahoma', fontWeight: 'normal'}}>iCodeOnline</h1>
               <hr />
               <br />
-              <p>Learn HTML | CSS | JS | {'& More Coming Soon'} </p>
+              <p style={{fontSize: 30}}>Learn HTML | CSS </p>
 
-              <div className="social-links">
-
-                {/* LinkedIn */}
-                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                  <i className="fa fa-linkedin-square" aria-hidden="true" />
-                </a>
-
-                {/* Github */}
-                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                  <i className="fa fa-github-square" aria-hidden="true" />
-                </a>
-
-                {/* Freecodecamp */}
-                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                  <i className="fa fa-free-code-camp" aria-hidden="true" />
-                </a>
-
-                {/* Youtube */}
-                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                  <i className="fa fa-youtube-square" aria-hidden="true" />
-                </a>
-
-              </div>
             </div>
             
             <InfoArea/>
@@ -53,6 +31,7 @@ class Landing extends Component {
           </Cell>
         </Grid>
       </div>
+     
     )
   }
 }

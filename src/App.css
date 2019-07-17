@@ -1,14 +1,14 @@
 
 .header-color {
   background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right,  #f12711, #f5af19);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #f12711, #f5af19); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right,  #f12711, #5f2ac2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #757574, #757574); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
   background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right,  #f12711, #f5af19);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right,  #f12711, #f5af19); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right,  #d8a49e, #a8a495);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,  #aaa8a8, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
   top: 0;
