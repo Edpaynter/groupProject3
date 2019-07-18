@@ -45,7 +45,7 @@ const quizDictionary = {
 
 
    
-    CSS : [
+    CSS : 
         {
             name: "Test 1",
             questions: 10,
@@ -123,7 +123,7 @@ const quizDictionary = {
                     answer: "2"
                 }
             ]
-        }]
+        }
 }
 
 export default quizDictionary;
