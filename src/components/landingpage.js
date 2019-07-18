@@ -29,6 +29,9 @@ class Landing extends Component {
             <TestArea/>
 
           </Cell>
+          <Grid>
+             
+          </Grid>
         </Grid>
       </div>
      
